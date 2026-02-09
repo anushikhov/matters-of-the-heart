@@ -1,0 +1,1 @@
+Projective geometry, introduced in the 16th century by Girard Desargues, extends Euclidean geometry by adding points at infinity at which parallel lines intersect. This simplifies many aspects of classical geometry by unifying the treatments for intersecting and parallel lines.

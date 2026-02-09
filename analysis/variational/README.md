@@ -1,0 +1,1 @@
+Variational analysis: studies optimization and equilibrium via functionals and set-valued/nonsmooth tools, generalizing convex analysis and powering calculus of variations and modern optimization theory.
