@@ -384,3 +384,64 @@ That is why the familiar “subtract the repeating tails” argument is legitima
 
 There is a surjective map from digit sequences to real numbers, and if you identify the two representations ending in $000\ldots$ and $999\ldots$, it becomes a bijection.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+In practice, decimals are generally represented by approximations.  
+
+In approximating decimals, we either round off or truncate to a given number of decimal places.  The number of places establishes the location of the final digit in the decimal approximation.  
+
+**Truncation:** Drop all the digits that follow the specified final digit in the decimal.  
+**Rounding:**  Identify the specified final digit in the decimal. If the next digit is 5 or more, add 1 to the final digit; if the next digit is 4 or less, leave the final digit as it is. Truncate following the final digit.   
+
+## Calculators   
+
+## Operators   
+
+## Order of operations  
+
+## Properties of Real Numbers  
+
+1. The **reflexive property** states that a number always equals itself, that is _a = a_.  
+2. The **symmetric property** states that if _a = b_ then _b = a_.  
+3. The **transitive property** states that if _a = b_ and _b = c_ then _a = c_.  
+4. The **principle of substitution** states that if _a = b_ then we may substitute _b_ for _a_ in any expression containing _a_.  
+5. **Commutative property:** _a + b = b + a_, _a * b = b * a_  
+6. **Associative properties:** _a + (b + c) = (a + b) + c = a + b + c_, _a * (b * c) = (a * b) * c = a * b * c_   
+7. **Distributive property:** _a * (b + c) = a * b + a * c_, _(a + b) * c = a * c + b * c_  
+8. **Identity properties:** _0 + a = a + 0 = a_, _a * 1 = 1 * a = a_  
+9. **Additive inverse property:** _a + (-a) = -a + a = 0_  
+10. **Multiplicative inverse property:** _a * 1/a = 1/a * a = 1   if a ≠ 0_   
+   
+The multiplicative inverse _1/a_ of a nonzero real number _a_ is also referenced as the **reciprocal** of _a_.  
+
+The **difference** _a - b_, is defined as _a - b = a + (-b)_   
+
+If _b_ is a nonzero real number, the **quotient** _a/b_, is defined as _a/b = a * 1/b   if b ≠ 0._   
+
+Multiplication by Zero:  _a * 0 = 0_   
+
+**Division by zero is not defined.**  
+
+Division properties: _0/a = 0, a/a = 1 if a ≠ 0_  
+
+Rules of signs: _a(-b) = -(ab), (-a)b = -(ab), (-a)(-b) = ab, -(-a) = a, a/(-b) = (-a)/b = -(a/b), (-a)/(-b) = a/b_   
+
+Cancellation properties: ac = bc implies a = b if c ≠ 0, ac/bc = a/b if b ≠ 0, c ≠ 0  
+
+**Zero-product property**  
+If _ab = 0_, then _a = 0_ or _b = 0_, or both.  
+
+Arithmetic of quotients:  
+_a/b + c/d = ad/bd + bc/bd = (ad + bc)/bc if b ≠ 0, d ≠ 0_  
+_a/b * c/d = ac/bd  if b ≠ 0, d ≠ 0_   
+_(a/b)/(c/d) = (a/b) * (d/c) = ad/bc  if b ≠ 0, c ≠ 0, d ≠ 0_   
+
+Sometimes it is easier to add two fractions using  _least common multiples_ (LCM).   
+**The LCM of two numbers is the smallest number that each has as a common multiple.**    
+
+The LCM of 15 and 12: to find the LCM of 15 and 12, we look at multiples of 15 and 12.   
+15: 15, 30, 45, **60**, 75, 90, 105, 120, ...  
+12: 12, 24, 36, 48, **60**, 72, 84, 96, 108, 120, ...  
+
+
+
+
