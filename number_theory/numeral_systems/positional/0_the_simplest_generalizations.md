@@ -1,4 +1,4 @@
-### “The simplest generalizations”      
+### The simplest generalizations      
    
 *Change as little as possible* from ordinary decimal positional notation.   
    
@@ -16,12 +16,12 @@ That preserves the most familiar properties: every integer has a finite expansio
    
 ---   
    
-## What if (b=0)?   
+## b=0   
    
 A positional system with the usual meaning   
-$$   
+```math   
 \sum a_k b^k   
-$$   
+```   
 basically breaks:   
    
 * For (k\ge1), (0^k=0), so higher places contribute nothing.   
@@ -32,27 +32,27 @@ So **“base 0” isn’t a workable positional numeral system** in the normal s
    
 ---   
    
-## What if (b=1)?   
+## b=1     
    
 That’s the **unary** (tally-mark) system: represent (n) by repeating a symbol (n) times. It exists, but it’s not positional in the usual way (place value doesn’t change). ([Wikipedia][1])   
    
 ---   
    
-## What if (b) is negative?   
+## b is negative     
    
 Yes — **negative bases are a real thing** and studied.   
    
 Example: **base (-2)** (“negabinary”) uses digits ({0,1}) but place values alternate sign:   
-$$   
+```math   
 \sum a_k(-2)^k.   
-$$   
+```    
 Every integer can be represented **without a minus sign** (at the cost of trickier arithmetic). ([Wikipedia][2])   
    
 There’s also a broader theory of “β-expansions” (negative real bases), studied for (β>1). ([EuDML][3])   
    
 ---   
    
-## b is not an integer?   
+## b is a non-integer   
    
 **Non-integer bases** are studied under **β-expansions**.   
    
@@ -62,7 +62,7 @@ These expansions can be non-unique more often than in integer bases, and many ra
    
 ---   
    
-## Complex bases?   
+## Complex bases     
    
 Knuth proposed the **quater-imaginary base (2i)**, where every complex number can be represented using digits ({0,1,2,3}). ([Wikipedia][5])   
    
