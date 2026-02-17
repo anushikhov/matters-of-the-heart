@@ -4,7 +4,7 @@
    
 Decimal has two core ingredients:   
    
-1. a **base** (b=10) (place values (10^k)), and   
+1. a **base** (b=10) (place values $(10^k)$), and   
 2. a **digit set** (D={0,1,...,9}) (so each “digit” fits in one place).   
    
 So the “simplest generalization” is: keep the *same positional idea*, but let   
@@ -24,9 +24,9 @@ A positional system with the usual meaning
 ```   
 basically breaks:   
    
-* For k≥1, 0^k=0, so higher places contribute nothing.   
-* For k<0, 0^k would require dividing by 0 (undefined).   
-* Even 0^0 is a special case.   
+* For $k≥1, 0^k=0$, so higher places contribute nothing.   
+* For $k<0, 0^k$ would require dividing by 0 (undefined).   
+* Even $0^0$ is a special case.   
    
 So **“base 0” isn’t a workable positional numeral system** in the normal sense.   
    
@@ -57,7 +57,7 @@ https://www.sciencedirect.com/science/article/pii/0304397589900388
    
 **Non-integer bases** are studied under **β-expansions**.   
    
-For any real (β>1), numbers can be represented using digits from a finite set $(often ({0,1,...,\lfloorβ\rfloor}))$ with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
+For any real (β>1), numbers can be represented using digits from a finite set (often $({0,1,...,\lfloorβ\rfloor})$ ) with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
    
 These expansions can be non-unique more often than in integer bases, and many rationals won’t have terminating forms.   
    
