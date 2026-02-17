@@ -57,7 +57,7 @@ https://www.sciencedirect.com/science/article/pii/0304397589900388
    
 **Non-integer bases** are studied under **β-expansions**.   
    
-For any real (β>1), numbers can be represented using digits from a finite set (often ({0,1,...,$$\lfloor$$β$$\rfloor$$})) with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
+For any real (β>1), numbers can be represented using digits from a finite set $(often ({0,1,...,\lfloorβ\rfloor}))$ with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
    
 These expansions can be non-unique more often than in integer bases, and many rationals won’t have terminating forms.   
    
