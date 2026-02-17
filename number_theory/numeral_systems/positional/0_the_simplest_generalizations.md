@@ -5,12 +5,12 @@
 Decimal has two core ingredients:   
    
 1. a **base** (b=10) (place values (10^k)), and   
-2. a **digit set** (D={0,1,\dots,9}) (so each “digit” fits in one place).   
+2. a **digit set** (D={0,1,...,9}) (so each “digit” fits in one place).   
    
 So the “simplest generalization” is: keep the *same positional idea*, but let   
    
 * (b) be any **integer (>1)**, and   
-* digits be exactly (0,1,\dots,b-1).   
+* digits be exactly (0,1,...,b-1).   
    
 That preserves the most familiar properties: every integer has a finite expansion, conversion algorithms work cleanly, and (almost) uniqueness holds.   
    
@@ -24,9 +24,9 @@ A positional system with the usual meaning
 ```   
 basically breaks:   
    
-* For (k\ge1), (0^k=0), so higher places contribute nothing.   
-* For (k<0), (0^k) would require dividing by 0 (undefined).   
-* Even (0^0) is a special case.   
+* For k≥1, 0^k=0, so higher places contribute nothing.   
+* For k<0, 0^k would require dividing by 0 (undefined).   
+* Even 0^0 is a special case.   
    
 So **“base 0” isn’t a workable positional numeral system** in the normal sense.   
    
@@ -34,7 +34,7 @@ So **“base 0” isn’t a workable positional numeral system** in the normal s
    
 ## b=1     
    
-That’s the **unary** (tally-mark) system: represent (n) by repeating a symbol (n) times. It exists, but it’s not positional in the usual way (place value doesn’t change). ([Wikipedia][1])   
+That’s the **unary** (tally-mark) system: represent _n_ by repeating a symbol _n_ times. It exists, but it’s not positional in the usual way (place value doesn’t change). ([Wikipedia][1])   
    
 ---   
    
@@ -49,6 +49,7 @@ Example: **base (-2)** (“negabinary”) uses digits ({0,1}) but place values a
 Every integer can be represented **without a minus sign** (at the cost of trickier arithmetic). ([Wikipedia][2])   
    
 There’s also a broader theory of “β-expansions” (negative real bases), studied for (β>1). ([EuDML][3])   
+https://www.sciencedirect.com/science/article/pii/0304397589900388  
    
 ---   
    
@@ -56,7 +57,7 @@ There’s also a broader theory of “β-expansions” (negative real bases), st
    
 **Non-integer bases** are studied under **β-expansions**.   
    
-For any real (β>1), numbers can be represented using digits from a finite set (often ({0,1,\dots,\lfloor\beta\rfloor})) with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
+For any real (β>1), numbers can be represented using digits from a finite set (often ({0,1,...,$\lfloor$β$\rfloor$})) with an algorithmic “greedy” expansion. This was introduced by Rényi (1957) and developed by Parry (1960). ([Webspace][4])   
    
 These expansions can be non-unique more often than in integer bases, and many rationals won’t have terminating forms.   
    
