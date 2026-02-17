@@ -4,7 +4,7 @@
    
 Decimal has two core ingredients:   
    
-1. a **base** (b=10) (place values $(10^k)$), and   
+1. a **base** (b=10) (place values $10^k$ ), and   
 2. a **digit set** (D={0,1,...,9}) (so each “digit” fits in one place).   
    
 So the “simplest generalization” is: keep the *same positional idea*, but let   
