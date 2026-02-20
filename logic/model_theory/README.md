@@ -1,0 +1,1 @@
+Model Theory (Semantic View) studies the relationship between formal languages (syntactic systems) and their interpretations, or "models" (set-theoretic structures). It focuses on whether formulas are true or false in specific structures.  

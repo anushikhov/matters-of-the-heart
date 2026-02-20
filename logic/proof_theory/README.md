@@ -1,0 +1,1 @@
+Proof theory (Syntactic View) is a branch of mathematical logic that treats proofs as formal, syntactic objects. It analyzes formal proofs and derivations as mathematical objects. It focuses on the structure of deductive systems, axioms, and the rules of inference.  

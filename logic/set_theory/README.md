@@ -1,0 +1,1 @@
+Set Theory investigates sets, which are collections of objects, often used to establish the foundations of mathematics. Axiomatic set theory (e.g., ZFC) defines the rules for constructing mathematical objects.  
