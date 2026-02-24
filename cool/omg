@@ -1,0 +1,117 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         TWIN ROADMAP POSTER: LOGIC → FOUNDATIONS             │
+│                 (two spines; you can walk either, with bridges)              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SPINE A — MATH FOUNDATIONS ROAD (set theory → categories → type theory)     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+(0) “Naive” Set & Functions (informal comfort zone)
+    • sets, relations, functions, equivalence relations
+
+      ▼
+(1) FOL as the foundation language
+    • axioms as first-order theories (what it *means* to formalize)
+
+      ▼
+(2) ZF / ZFC Set Theory (the classic bedrock)
+    • ordinals, cardinals, transfinite induction/recursion
+
+      ├── exit: Forcing / Independence (CH, AC, etc.)
+      └── exit: Large Cardinals (strength ladder)
+
+      ▼
+(3) Higher viewpoints inside sets
+    • definability, models, inner models (L), reflection ideas
+
+      ▼
+(4) Category Theory as “structure-first”
+    • categories, functors, natural transformations
+
+      ▼
+(5) Topos Theory (geometry + logic meet)
+    • a topos has an *internal logic* (logic lives inside categories)
+
+      ▼
+(6) Categorical foundations variants
+    • ETCS (category-theoretic set theory), elementary toposes, universes
+
+      ▼
+(7) Type-Theoretic Foundations (a different base language)
+    • simple types → dependent types → universes + inductives
+
+      ▼
+(8) Univalent Foundations / HoTT
+    • equality upgraded; types behave like spaces; higher structure baked in
+
+      ▼
+(9) Cubical / ∞-directions
+    • computational univalence; higher categories/toposes on the far horizon
+
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SPINE B — CS / VERIFICATION ROAD (logic → automation → proof assistants)    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+(0) Propositional Logic (PL)
+    • connectives; normal forms
+
+      ▼
+(1) SAT & Resolution (automation begins)
+    • CNF, DPLL/CDCL (why “proof search” can scale)
+
+      ▼
+(2) First-Order Logic (FOL)
+    • quantifiers, theories, models
+
+      ▼
+(3) SMT (SAT + Theories)
+    • arithmetic, bitvectors, arrays, algebraic datatypes
+
+      ▼
+(4) Program Logics (reasoning about code)
+    • Hoare logic → weakest preconditions → invariants
+
+      ├── exit: Separation logic (heap & pointers)
+      └── exit: Refinement types (types + predicates)
+
+      ▼
+(5) Model Checking (state machines at scale)
+    • temporal logic (LTL/CTL), μ-calculus, automata connections
+
+      ▼
+(6) Typed λ-calculus / HOL (higher-order reasoning)
+    • simply typed λ (STLC), HOL style proof
+
+      ▼
+(7) Dependent Type Theory (proofs = programs)
+    • Π/Σ types, inductives, recursion principles
+
+      ▼
+(8) Proof Assistants (trusted kernel)
+    • Lean/Coq/Agda style cores: DTT + inductives + universes
+
+      ▼
+(9) Industrial-strength workflows
+    • SMT-assisted proofs, extraction, verified compilers, verified kernels
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  BRIDGES (where the two roads shake hands)                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+• Curry–Howard:  Logic ↔ Types ↔ Programs
+    PL/FOL proofs  ↔  typed terms  ↔  programs you can run
+
+• Topos internal logic:  Categories give semantics to logic
+    (logic “inside” a topos, not just over ℕ or sets)
+
+• Set theory ↔ Type theory:  interpret one in the other (with trade-offs)
+    (models of type theory in sets; constructive meanings in type theory)
+
+• Automation ↔ Foundations:  SMT + proof assistants
+    (push-button solvers feeding “trusted” kernels)
+

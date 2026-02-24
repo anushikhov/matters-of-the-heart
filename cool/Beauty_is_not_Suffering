@@ -1,0 +1,93 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                               LOGIC — MAIN ROAD                              │
+│                    (a “forward path” you can just walk)                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+(0) Pre-road: Syntax & Proof Style
+    • formulas, inference rules, derivations
+    • natural deduction / sequent calculus / Hilbert (pick one, keep moving)
+
+      │
+      ▼
+(1) Propositional Logic (PL)
+    • connectives: ¬ ∧ ∨ → ↔
+    • truth tables, normal forms
+
+      ├── exit A: SAT / proof complexity
+      │        (CNF, DPLL, resolution)
+      │
+      ▼
+(2) First-Order Logic (FOL)
+    • quantifiers over individuals: ∀x ∃x
+    • structures/models, satisfaction ⊨
+
+      ├── exit B: Model Theory (the “structures” highway)
+      │        (compactness, Löwenheim–Skolem, types, categoricity questions)
+      │
+      ├── exit C: Proof Theory (the “proofs about proofs” highway)
+      │        (cut-elimination, normalization, consistency strength)
+      │
+      ├── exit D: Computability/Recursion (the “limits” highway)
+      │        (Gödel, Turing, incompleteness, decidability)
+      │
+      ▼
+(3) FOL + Equality + Theories
+    • add "=" properly; study specific axiom systems:
+      groups, rings, fields, Peano arithmetic, etc.
+
+      ├── exit E: SMT / automated reasoning
+      │        (theories + decision procedures: bitvectors, arrays, arithmetic)
+      │
+      ▼
+(4) Second-Order Logic (SOL)
+    • quantify over predicates/sets: ∀P, ∃P
+    • huge expressive jump; “categorical” axiomatizations become possible
+
+      ├── exit F: Descriptive set theory / foundations flavor
+      │        (strength, definability, set existence principles)
+      │
+      ▼
+(5) Higher-Order Logic (HOL)
+    • quantify over functions/predicates of predicates…
+    • often paired with types to stay sane
+
+      ▼
+(6) Simple Type Theory (STT / Typed HOL / Church)
+    • types: α, β, α→β
+    • functions are first-class; “higher order” becomes disciplined
+
+      ├── exit G: λ-calculus (the PL/CS bridge)
+      │        (simply typed λ, normalization, Curry–Howard)
+      │
+      ▼
+(7) Dependent Type Theory (DTT / Martin-Löf)
+    • types can depend on terms: Π-types, Σ-types
+    • propositions-as-types becomes the main language
+
+      ├── exit H: Constructive mathematics
+      │        (proofs as programs; extract algorithms from proofs)
+      │
+      ▼
+(8) “Proof Assistant Core” (practical foundations)
+    • universes + inductive types + recursion principles
+    • this is where Coq/Lean/Agda/Idris live (flavors differ)
+
+      ▼
+(9) Homotopy Type Theory (HoTT) / Univalence / HITs
+    • equality becomes path-like; types behave like spaces
+    • “higher-dimensional” foundations
+
+      ▼
+(10) Cubical Type Theory / ∞-directions
+    • computational control of univalence
+    • meets higher category theory / ∞-toposes on the horizon
+
+
+LEGEND (why this feels like a road):
+• Each step adds a new “kind of thing you can quantify over / treat as a citizen.”
+  PL: truth of statements
+  FOL: individuals
+  SOL: predicates/sets of individuals
+  HOL/STT: functions (organized by types)
+  DTT: propositions/types indexed by terms (dependent structure)
+  HoTT: equality upgraded to geometry (paths/higher paths)
